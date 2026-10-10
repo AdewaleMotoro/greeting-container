@@ -1,0 +1,44 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*.egg-info
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.venv
+venv/
+env/
+
+# Tests, coverage, CI
+tests/
+.coverage
+htmlcov/
+.tox
+
+# IDE and editor
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Markdown and documentation
+*.md
+!README.md
+
+# Repo-specific files we don't want in the image
+.markdownlint-cli2.yaml
+markdownlint-cli2-codequality.json
+CONTRIBUTING.md
+LICENSE
+SECURITY.md
+Dockerfile
+.dockerignore

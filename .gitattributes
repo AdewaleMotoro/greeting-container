@@ -1,0 +1,12 @@
+# Ensure LF line endings for cross-platform consistency
+* text=auto eol=lf
+
+# Explicitly force LF for Docker and shell files
+Dockerfile text eol=lf
+*.sh text eol=lf
+.dockerignore text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary
